@@ -4,7 +4,7 @@ from app.models import CVE
 
 @app.route('/')
 def home():
-    return 'SecOps Solution CVE API'
+    return 'CVE Management API'
 
 @app.route('/cve/<cve_id>', methods=['GET'])
 def get_cve(cve_id):
